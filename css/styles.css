@@ -64,6 +64,9 @@
 .header-box .list-connection {
   margin-left: auto;
 }
+.list-connection .list-item {
+  display: flex;
+ }
 span.color-logo {
   color: #2196f3;
 }
@@ -94,6 +97,16 @@ span.color-studio {
   line-height: 1.143;
   letter-spacing: 0.02em;
 }
+.icon-mail {
+  width:16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.icon-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
 /* main */
 h1,h2,h3,h4,h5,h6,ul {
   margin-top: 0;
@@ -104,8 +117,8 @@ h1,h2,h3,h4,h5,h6,ul {
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: url(../images/bg-hero.jpg);
+  background-color: rgba(47, 48, 58, 0.4);
   background-size: cover;
-  
 }
 .hero .hero-title {
   margin-bottom: 30px;
@@ -144,6 +157,21 @@ h1,h2,h3,h4,h5,h6,ul {
 .instruments .list {
    margin-bottom: 0;
    text-align: start;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.icon-instruments {
+  display: inline-block;
+  width: 70px ;
+  height: 70px;
 }
 .list .list-title {
   color: var(--primery-text-color);
