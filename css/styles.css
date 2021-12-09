@@ -103,6 +103,9 @@ h1,h2,h3,h4,h5,h6,ul {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: url(../images/bg-hero.jpg);
+  background-size: cover;
+  
 }
 .hero .hero-title {
   margin-bottom: 30px;
